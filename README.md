@@ -148,6 +148,3 @@ This project is licensed under the MIT License.
 
 ## Author
 Yash.
-Yash Kumar Shaw
-
-GitHub: https://github.com/ys09123
