@@ -1,24 +1,12 @@
 langchain
 langchain-core
 langchain-community
-
-# LLM Providers
-
 langchain-mistralai
 mistralai
 langchain-huggingface
-
-# Vector Database
-
 langchain-chroma 
 chromadb
-
-# Embedding Models
-
 sentence-transformers
-
-# Document Loaders dependencies
-
 pypdf
 unstructured
 beautifulsoup4
@@ -31,23 +19,11 @@ tiktoken
 # Environment Variables
 
 python-dotenv
-
-# Data Handling
-
 pandas
 numpy
-
-# API / App Layer (optional but common in RAG apps)
-
 fastapi
 uvicorn
-
-# UI (optional)
-
 streamlit
-
-# Utilities
-
 tqdm
 torchvision
 requests

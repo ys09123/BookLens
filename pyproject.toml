@@ -1,9 +1,33 @@
 [project]
 name = "booklens"
 version = "0.1.0"
-description = "Add your description here"
+description = "BookLens RAG App"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11,<3.13"
+
 dependencies = [
-    "torchvision>=0.27.0",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-mistralai",
+    "mistralai",
+    "langchain-huggingface",
+    "langchain-chroma",
+    "chromadb",
+    "sentence-transformers",
+    "pypdf",
+    "unstructured",
+    "beautifulsoup4",
+    "lxml",
+    "tiktoken",
+    "python-dotenv",
+    "pandas",
+    "numpy",
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "tqdm",
+    "torch",
+    "torchvision",
+    "requests"
 ]
