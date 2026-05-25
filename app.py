@@ -169,10 +169,3 @@ Question:
 
             st.write("### AI Answer")
             st.write(response.content)
-
-            with st.expander("🔍 Debug — retrieved chunks"):
-                for i, d in enumerate(retrieved_docs, 1):
-                    page = d.metadata.get("page", "?")
-                    st.markdown(f"**Chunk {i} · Page {page}**")
-                    st.text(d.page_content)
-                    st.divider()
