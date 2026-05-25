@@ -49,4 +49,5 @@ streamlit
 # Utilities
 
 tqdm
+torchvision
 requests
