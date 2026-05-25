@@ -4,9 +4,7 @@ langchain-community
 
 # LLM Providers
 
-langchain-openai
 langchain-mistralai
-openai
 mistralai
 
 # Vector Database
@@ -16,6 +14,7 @@ chromadb
 # Embedding Models
 
 sentence-transformers
+langchain-huggingface
 
 # Document Loaders dependencies
 
