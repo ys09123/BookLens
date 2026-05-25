@@ -31,3 +31,6 @@ dependencies = [
     "torchvision",
     "requests"
 ]
+
+[tool.poetry]
+package-mode = false
